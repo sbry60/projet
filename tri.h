@@ -29,7 +29,7 @@ void affichage(int tab[TAILLE][TAILLE],Cible tab1[TAILLE],Robot robot[TAILLE],in
 void emoji(Robot robot[TAILLE],int i, int j);
 void sleep_custom(unsigned int ms);
 int puissance10(int n);
-int better_scan(char* message);
+int verif_scan(int min,int max);
 int min(Joueur joueur[TAILLE],int nb);
 int max_score(Joueur joueur[TAILLE],int nb);
 int inlistC(Cible tab2[TAILLE],int x,int y);
